@@ -1,0 +1,145 @@
+/*################### Defaults ###################*/
+
+body{
+	line-height: 1;
+	margin:0;
+}
+
+footer{
+	text-align: center;
+	background-color: #a2a7ad ;
+	font-size: 35px;
+
+}
+
+button{
+	color: #fff;
+	font-size: 22px;
+	font-weight: 200;
+	background-color: #0069ff;
+	display: block;
+	text-align: center;
+	padding: 15px 16px;
+	margin: auto;
+	border-radius: 7px;
+}
+
+
+/*########### mobile #############*/
+
+@media screen and (max-width: 680px){
+	
+	div.col-6{
+	width: 100%;
+	margin: 0;
+	
+	}
+
+	div.box{
+		padding: 5px;
+		display: block;
+	}
+
+  div.left-side-col{
+  	margin: 15px;
+  	padding-left: 0;
+  }
+  #img-div{
+  	margin: 15px;
+  	padding-left: 0;
+
+ }
+	
+
+input[type="text"]{
+	width: 350px;
+
+
+ }
+}
+
+/*############### custom styles######################*/
+
+#section-1-gradient{
+	background: #076DFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0f482e, #004d33); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0f482e, #004d33); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0f482e, #004d33); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0f482e, #004d33); /* Standard syntax */
+
+}
+
+div.left-side-col{
+	margin-left: 15%;
+
+
+}
+div.right-side-col{
+	margin-left: 15%;
+}
+
+div.box{
+	background-color: #fff;
+	margin: 24px;
+	padding: 36px 24px 40px 24px;
+	border-radius: 7px;
+	line-height: 1.9;
+}
+
+
+/*##################### body tag #########################*/
+
+.container{
+	width: 100;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.row::after{
+	display: table;
+	clear: both;
+	content: "";
+}
+
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+* {
+	box-sizing: border-box;
+}
+
+input[type="text"]{
+	font-size: 10px;
+	width: 200px;
+	min-width: 100px;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+#title{
+	color:#fff;
+	font-size: 35px;
+}
+
+#headline{
+	font-size: 35px;
+	font-weight: bolder;
+}
